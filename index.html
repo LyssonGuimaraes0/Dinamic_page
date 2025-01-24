@@ -8,39 +8,33 @@
 </head>
 <body>
  <!------------------------------------------------Navebar----------------------------------------------------------------->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
-        <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                  <img src="images/home_icon.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
-                </a>
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+  
+ <nav class="navbar navbar-expand-lg p-3 mb-2 bg-black fix-top">
+
+          <div class="container navbar-collapse " id="navbarNav">
+            <a type="btn"class="btn btn-light position-relative " href="#">
+                <img src="images/home_icon.png" alt="Logo" width="35" height="30" >
+              </a>
+            <ul class="navbar-nav ">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active text-white " aria-current="page" href="#">Sobre</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link active text-white" aria-current="page" href="#">Tabela</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link active text-white" aria-current="page" href="#">Palestrantes</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                <a class="nav-link active text-white" aria-current="page" href="#">Oferecimento</a>
+              </li>
               </li>
             </ul>
           </div>
         </div>
       </nav>
- <!-------------------------------------------------------imagem----------------------------------------------------------->
- <picture>
-        <img src="images/banner_site.avif" width="100%" height="400px" >
+        <img src="images/banner_site.avif" width="100%" height="500px" >
         
-</picture>
-
 <!--------------------------------------------------------Conteudo--------------------------------------------------------->
 
 <header>
@@ -48,7 +42,7 @@
 </header>
 <br>
 
-<div class="container-fluid text-center">
+<div class="container">
     <h2>Sobre a inteligência Artificial</h2><br>
 </div>
 
@@ -85,6 +79,7 @@
     <h2>Tabela de IA mais utilizadas</h2>
 </div>
 <!--Div responsavel por deixa tabela no centro-->
+<div>
     <div class="container text-align: center">
         <table class="table table-striped table-bordered table-sm" >
             <thead>
@@ -133,10 +128,51 @@
         </tbody>
           </table>
     </div>
+</div>   
+<br>
     <!----------------------------------------Grade de imagens------------------------------------------------------------->
-    
+<div class="container text-align: center ">
+    <h2>Os mais influentes na área de IA</h2>
+    <div class="card-group ">
+        <div class="card " >
+          <img src="images/Elon-Musk-1024x1024.jpg" class="card-img-top" alt="...">
+          <div class="card-body ">
+            <h5 class="card-title">Elon Musk</h5>
+            <p class="card-text">Fundador da OpenAI e CEO da Tesla e SpaceX, Musk tem sido um defensor ativo do desenvolvimento de IA, mas também alertou sobre os riscos de IA descontrolada. Ele tem sido uma figura controversa, tanto promovendo a IA quanto debatendo sobre seus possíveis perigos.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/P47464-Demis-Hassabis.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Demis Hassabis</h5>
+            <p class="card-text"> Fundador da DeepMind, uma das empresas mais importantes de IA do mundo. DeepMind foi responsável pela criação do AlphaGo, que venceu campeões mundiais de Go. Hassabis é uma das mentes por trás de muitos avanços em IA, incluindo aprendizado por reforço e inteligência geral artificial.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/yoshua-bengio.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Yoshua Bengio</h5>
+            <p class="card-text">Juntamente com Hinton e LeCun, Bengio é considerado um dos "pais" do deep learning. Ele fez grandes contribuições ao campo do aprendizado profundo e redes neurais.</p>
+          </div>
+        </div>
+    </div>    
+      </div>
+  <!-------------------------------------------------------Apoio----------------------------------------------------------->
+  <br>
+  <hr>
+<div class="container">
+  <strong><p>Apoio</p></strong>
+  <br>
+  <picture>
+    <img src="images/logo_FIEB.png" class="rounded float-end" alt="...">
+  
+    <img src="images/logo_corecon.png" class="rounded float-start" alt="...">
 
-    
+  </picture>
+
+</div>
+
+</div>
 <script src="js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 </body>
 </html>
