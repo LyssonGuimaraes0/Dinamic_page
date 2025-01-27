@@ -7,25 +7,29 @@
     <title>Pagina Dinamica</title>
 </head>
 <body>
- <!------------------------------------------------Navebar----------------------------------------------------------------->
+ <!--Navebar-->
 
  <?php include('./snippers/naverbar.html');?>
         
-<!-------------------------------------------------Conteudo----------------------------------------------------------------->
+<!--Conteudo-->
 
 <?php include('./snippers/conteudo.html');?>
 
-<!-------------------------------------------------Tabela------------------------------------------------------------------->
+<!--Tabela--->
 
 <?php include('./snippers/tabela.html');?>
 
-<!----------------------------------------------Grade de imagens------------------------------------------------------------->
+<!--Grade de imagens-->
   
 <?php include('./snippers/grand_imagens.html');?>
 
-<!---------------------------------------------------Apoio-------------------------------------------------------------------->
+<!--Apoio-->
   
 <?php include('./snippers/apoio.html');?>
+
+<!--Rodapé-->
+
+<?php include('./snippers/rodapé.html');?>
 
 <script src="js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 </body>
