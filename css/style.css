@@ -1,0 +1,57 @@
+/*Algumas mudaças para naverbar e baner*/
+.tamanho{
+    margin-bottom: 0px !important;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;   
+    
+  }
+
+  .baner{
+
+    width :100%;
+    height : 550px;
+    margin-top: 120px;
+
+  }
+
+  /*Alterações do rodapé*/
+
+  .icon-social{
+
+    padding-left: 25px;
+   
+
+}
+
+.espacamento{
+
+    padding: 50px;
+}
+
+
+
+
+  /*arruma paginas que para a configuração javascript*/
+
+  .conteudo{
+
+    padding-top: 130px;
+    
+
+  }
+
+  .tabela{
+
+    padding-top: 140px;
+
+  }
+
+  .Revolucionarios{
+
+    padding-top: 150px;
+    padding-bottom: 100px;
+
+  }
+
+  
